@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* global style start  */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-half {
+  width: 50%;
+}
+img {
+  width: 100%;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3e3e3e;
+}
+a {
+  text-decoration: none;
+}
+.common-btn {
+  color: #ffffff;
+  padding: 13px 40px;
+  border-radius: 6px;
+  background: #333333;
+  display: inline-block;
+}
+.primary-clr {
+  color: #333333;
+}
+.secondary-clr {
+  color: #2a82cc;
+}
+/* hero area style start  */
+.hero-area {
+  padding: 40px 0px;
+}
+.hero-content-wrapper {
+  margin-top: 100px;
+}
+.hero-content-wrapper h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 54px;
+  padding-left: 15px;
+  color: #333333;
+
+  border-left: 5px solid;
+  border-image: #333333;
+  border-image-slice: 1;
+}
+.hero-content-wrapper p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.img-wrapper {
+  text-align: right;
+}
+.hero-wrapper img {
+  width: 430px;
+}
