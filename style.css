@@ -8,16 +8,20 @@ body {
 }
 /* global style start  */
 .container {
-  width: 80%;
+  width: 1170px;
   margin: 0 auto;
+}
+.title {
+  font-size: 44px;
+  color: #333333;
 }
 .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .col-half {
   width: 50%;
+  margin: 0px 10px;
 }
 img {
   width: 100%;
@@ -37,6 +41,9 @@ a {
   background: #333333;
   display: inline-block;
 }
+.txt-center {
+  text-align: center;
+}
 .primary-clr {
   color: #333333;
 }
@@ -47,14 +54,16 @@ a {
 .hero-area {
   padding: 40px 0px;
 }
+.hero-area .row {
+  align-items: center;
+}
 .hero-content-wrapper {
   margin-top: 100px;
 }
-.hero-content-wrapper h1 {
+.hero-content-wrapper .title {
   font-family: "Yeseva One", cursive;
   font-size: 54px;
   padding-left: 15px;
-  color: #333333;
 
   border-left: 5px solid;
   border-image: #333333;
@@ -69,4 +78,38 @@ a {
 }
 .hero-wrapper img {
   width: 430px;
+}
+/* mission-area style start */
+.mission-area {
+  padding: 50px 0px;
+}
+.mission-card-wrapper {
+  margin-top: 50px;
+}
+.single-card {
+  width: 33.33%;
+  background: #edf5f7;
+  padding: 40px 30px;
+  border-radius: 35px;
+
+  margin: 0px 10px;
+}
+.vision-card {
+  background: #ffeeee;
+}
+.goal-card {
+  background: #fff4d6;
+}
+.single-card img {
+  width: 100px;
+  height: 108px;
+  object-fit: cover;
+}
+.single-card h3 {
+  font-size: 24px;
+  color: #333333;
+  margin: 10px 0px;
+}
+.single-card p {
+  font-size: 16px;
 }
