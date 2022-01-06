@@ -44,9 +44,6 @@ a {
 .txt-center {
   text-align: center;
 }
-.primary-clr {
-  color: #333333;
-}
 .secondary-clr {
   color: #2a82cc;
 }
@@ -97,10 +94,10 @@ a {
 .single-card {
   width: 33.33%;
   background: #edf5f7;
-  padding: 40px 30px;
   border-radius: 35px;
 
   margin: 0px 10px;
+  padding: 40px 30px;
 }
 .vision-card {
   background: #ffeeee;
