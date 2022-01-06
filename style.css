@@ -8,7 +8,7 @@ body {
 }
 /* global style start  */
 .container {
-  width: 1170px;
+  width: 1150px;
   margin: 0 auto;
 }
 .title {
@@ -112,4 +112,109 @@ a {
 }
 .single-card p {
   font-size: 16px;
+}
+/* planing area start  */
+.planing-area {
+  padding: 90px 0px;
+}
+.planing-area .row {
+  align-items: center;
+}
+.planing-area .title {
+  font-size: 34px;
+}
+.col-35 {
+  width: 35%;
+  margin: 0px 10px;
+}
+.col-65 {
+  width: 65%;
+  margin: 0px 10px;
+}
+.content-img-area {
+  position: relative;
+}
+.develop-area .content-img-area .shape {
+  position: absolute;
+  z-index: -1;
+  top: 80px;
+  left: -100px;
+  width: 200px;
+}
+.content-txt-area {
+  padding-left: 40px;
+}
+.content-txt-area p {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.community-area {
+  margin-top: 60px;
+}
+.community-area .content-img-area .shape {
+  position: absolute;
+  z-index: -1;
+  bottom: -65px;
+  right: -75px;
+  width: 180px;
+}
+/* contact area style start  */
+.contact-area {
+  padding: 30px 0px;
+}
+.contact-map {
+  background-image: url(./images/pictures/map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+}
+.contact-ul {
+  display: flex;
+  list-style: none;
+}
+.contact-ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.contact-ul li img {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+}
+.contact-ul li span {
+  font-weight: 500;
+}
+
+.contact-txt h3 {
+  font-size: 26px;
+  color: #333;
+}
+.line {
+  width: 120px;
+  height: 5px;
+  background: #333;
+  display: inline-block;
+
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.contact-area .col-half {
+  padding: 30px 0px;
+}
+/* footer area start  */
+footer {
+  background: #333;
+  padding: 20px 0px;
+}
+.mission-txt {
+  font-family: "Yeseva One", cursive;
+  color: #ffffff;
+}
+footer p {
+  margin-top: 10px;
+  color: #dddddd;
+  font-size: 15px;
 }
